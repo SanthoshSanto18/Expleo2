@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Politics</name>
+   <tag></tag>
+   <elementGuidId>fea8d899-52ec-4e23-86e5-39069f6cfd83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//a[@data-ie-event-label=&quot;Politics&quot;]</value>
+      <webElementGuid>d1a52035-02a6-4874-8559-e430416cb727</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

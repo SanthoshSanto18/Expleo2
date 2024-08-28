@@ -20,3 +20,6 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://indianexpress.com/')
+
+WebUI.findWebElement(findTestObject('Object Repository/Home/Politics')).click()
+
