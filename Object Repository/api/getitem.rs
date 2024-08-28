@@ -1,36 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>createitem</name>
+   <name>getitem</name>
    <tag></tag>
-   <elementGuidId>f1f9e9e6-674a-4b54-86a5-78195985fbcb</elementGuidId>
+   <elementGuidId>4c30f739-02fb-4fee-b3e2-315c8926016e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;name\&quot;: \&quot;expleo 2\&quot;,\n  \&quot;description\&quot;: \&quot;test\&quot;,\n  \&quot;price\&quot;: 28082024,\n  \&quot;item_type\&quot;: \&quot;test\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>dfc9cb87-0953-4c84-969a-5440cd638d53</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <katalonVersion>9.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://ec2-54-254-162-245.ap-southeast-1.compute.amazonaws.com:9000/items/</restUrl>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>http://ec2-54-254-162-245.ap-southeast-1.compute.amazonaws.com:9000/items/${item_id}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -39,6 +27,13 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'4718'</defaultValue>
+      <description></description>
+      <id>a1c5d8c6-5176-42de-965e-40111121dca4</id>
+      <masked>false</masked>
+      <name>item_id</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
