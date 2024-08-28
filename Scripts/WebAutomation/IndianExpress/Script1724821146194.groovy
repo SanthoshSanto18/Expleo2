@@ -23,3 +23,4 @@ WebUI.navigateToUrl('https://indianexpress.com/')
 
 WebUI.findWebElement(findTestObject('Object Repository/Home/Politics')).click()
 
+
